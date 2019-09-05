@@ -7,44 +7,44 @@
 <body>
 <div class="wrapper">
     <header>
-        <div class="top-menu-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 top-menu">
-                        <div class="lang-picker">
-                            <a href="" class="lang-picker__link lang-picker__link--current">Рус</a>
-                            <a href="" class="lang-picker__link">Fin</a>
-                            <a href="" class="lang-picker__link">Kar</a>
-                            <a href="" class="lang-picker__link">Vep</a>
-                            <a href="" class="lang-picker__link">Eng</a>
-                        </div>
-                        <div class="header-toolbar">
-                            <a href="" class="header-toolbar__item">
-                                <svg class="header-toolbar__login">
-                                    <use xlink:href="/plain/svg/sprite.svg#login"></use>
-                                </svg>
-                                <span>войти</span>
-                            </a>
-                            <a href="" class="header-toolbar__item">
-                                <svg class="header-toolbar__shopcart">
-                                    <use xlink:href="/plain/svg/sprite.svg#shopcart"></use>
-                                </svg>
-                                <span class="header-toolbar__shopcart-counter">
+        <<div class="top-menu-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 top-menu">
+                    <div class="lang-picker">
+                        <a href="" class="lang-picker__link lang-picker__link--current">Рус</a>
+                        <a href="" class="lang-picker__link">Fin</a>
+                        <a href="" class="lang-picker__link">Kar</a>
+                        <a href="" class="lang-picker__link">Vep</a>
+                        <a href="" class="lang-picker__link">Eng</a>
+                    </div>
+                    <div class="header-toolbar">
+                        <a href="" class="header-toolbar__item">
+                            <svg class="header-toolbar__login">
+                                <use xlink:href="/plain/svg/sprite.svg#login"></use>
+                            </svg>
+                            <span>войти</span>
+                        </a>
+                        <a href="" class="header-toolbar__item">
+                            <svg class="header-toolbar__shopcart">
+                                <use xlink:href="/plain/svg/sprite.svg#shopcart"></use>
+                            </svg>
+                            <span class="header-toolbar__shopcart-counter">
                                 15
                             </span>
-                                <span>корзина</span>
-                            </a>
-                            <a href="" class="header-toolbar__item">
-                                <svg class="header-toolbar__subscribe">
-                                    <use xlink:href="/plain/svg/sprite.svg#subscribe"></use>
-                                </svg>
-                                <span>Подписаться</span>
-                            </a>
-                        </div>
+                            <span>корзина</span>
+                        </a>
+                        <a href="" class="header-toolbar__item">
+                            <svg class="header-toolbar__subscribe">
+                                <use xlink:href="/plain/svg/sprite.svg#subscribe"></use>
+                            </svg>
+                            <span>Подписаться</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
         <div class="main-menu-wrapper small">
             <div class="container">
                 <div class="row">
@@ -74,8 +74,11 @@
                             </div>
                         </div>
                         <div class="burger-menu">
-                            <svg>
+                            <svg class="burger-menu__close">
                                 <use xlink:href="/plain/svg/sprite.svg#burger"></use>
+                            </svg>
+                            <svg class="burger-menu__opened">
+                                <use xlink:href="/plain/svg/sprite.svg#burger_opened"></use>
                             </svg>
                             <div class="burger-menu__caption">
                                 меню
@@ -87,6 +90,21 @@
                             <a href="" class="main-menu__link">Новости</a>
                             <a href="" class="main-menu__link">Статьи</a>
                             <a href="" class="main-menu__link">Интернет-магазин</a>
+                            <div class="mobile-search">
+                                <form action="">
+                                    <input placeholder="Поиск..." type="search">
+                                    <button type="submit" class="mobile-search__submit">
+                                        <svg class="mobile-search__icon">
+                                            <use xlink:href="/plain/svg/sprite.svg#search"></use>
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="mobile-mediacenter">
+                                <a href="" class="mediacenter-link">
+                                    медиацентр
+                                </a>
+                            </div>
                         </nav>
                         <div class="main-menu__search">
                             <svg class="main-menu__search-icon">
