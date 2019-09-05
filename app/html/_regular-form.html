@@ -1,0 +1,64 @@
+<!--Regular Form-->
+<div class="form col-lg-7">
+    <form action="" class="has-validation-callback">
+        <div class="form-row required">
+            <div class="form__title">Ваше имя</div>
+            <div class="form__area">
+                <input class="required" data-validation="custom" data-validation-regexp="^([a-z]+)$" placeholder="Константин" type="text">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form__title">Селект</div>
+            <div class="form__area">
+                <select class="select--light" name="" id="" placeholder="Блабла">
+                    <option>Пункт 1</option>
+                    <option>Пункт 2</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row required">
+            <div class="form__title">Эл. почта</div>
+            <div class="form__area">
+                <input data-validation="email" name="email" type="email" class="required">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form__title">Тема</div>
+            <div class="form__area">
+                <input data-validation="" name="" type="text" class="required">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form__title">Файл</div>
+            <div class="form__area">
+                <label class="form__file" for="file__input">
+                    <input type="text" class="form__file-name" disabled="">
+                    <input data-validation="required extension" data-validation-allowing="txt" id="file__input" type="file" name="file">
+                    <div data-ripple-color="#ffffff" class="form-button material-ripple">Обзор</div>
+                </label>
+                <div class="form-row__info">Документ в форматах Jpeg, PNG, GIF</div>
+
+            </div>
+        </div>
+
+
+
+        <div class="form-row">
+            <div class="form__title">Телефон</div>
+            <div class="form__area">
+                <textarea class="required" name="" id="" cols="30" rows="10"></textarea>
+
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form__title"></div>
+            <div class="form__area">
+                <button type="submit" class="material-ripple form-button">
+                    Задать вопрос
+                </button>
+            </div>
+        </div>
+
+    </form>
+</div>
