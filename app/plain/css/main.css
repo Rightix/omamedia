@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800,900");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,700&display=swap&subset=cyrillic-ext");
 body {
-  color: #000;
+  color: #231d1f;
   font: 0.625em/1.5 "Montserrat", sans-serif;
   overflow-x: hidden;
   height: 100%; }
@@ -22,11 +22,11 @@ html {
   height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Play, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #d6001f; }
 
 h1 {
-  font-family: Play, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 90px;
   font-weight: 600;
   line-height: 88px;
@@ -241,7 +241,7 @@ a {
       line-height: 22px;
       font-weight: 700;
       margin-bottom: 21px;
-      color: #000;
+      color: #231d1f;
       min-width: 300px;
       width: 100%;
       padding: 0; }
@@ -284,7 +284,7 @@ a {
       padding-top: 6px;
       padding-bottom: 12px; }
     .form-row__label {
-      color: #000; }
+      color: #231d1f; }
     .form-row__info {
       width: 100%;
       font-size: 14px;
@@ -295,7 +295,7 @@ a {
   .form__caption {
     font-size: 16px;
     line-height: 24px;
-    color: #000;
+    color: #231d1f;
     width: 300px;
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -555,7 +555,7 @@ label {
     vertical-align: bottom;
     font-size: 15px;
     line-height: 23px;
-    color: #000000;
+    color: #231d1f;
     padding-top: 1px; }
   .checkbox input[type=checkbox] {
     visibility: hidden;
@@ -587,7 +587,7 @@ label {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: #000;
+  background: #231d1f;
   bottom: 0;
   right: 0;
   margin: auto;
@@ -617,7 +617,7 @@ label {
       width: 12px;
       height: 12px;
       border-radius: 8px;
-      background: #000;
+      background: #231d1f;
       top: 0px;
       left: 0px;
       bottom: 0;
@@ -734,7 +734,8 @@ label {
     width: 17px;
     height: 30px;
     margin-right: 5px;
-    position: relative; }
+    position: relative;
+    fill: none; }
 
 .submenu {
   display: -webkit-box;
@@ -845,7 +846,7 @@ label {
   line-height: 17px;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
   padding: 16px 54px 17px 31px;
   background: #429A86;
@@ -965,7 +966,7 @@ label {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 16px 15px;
+  padding: 13px 15px 12px;
   position: relative; }
   .subscribe-line:after {
     content: '';
@@ -978,7 +979,7 @@ label {
     background: url("../svg/triangle.svg") no-repeat;
     margin: auto; }
   .subscribe-line-wrapper {
-    background: #000; }
+    background: #231d1f; }
   .subscribe-line__heart {
     width: 40px;
     height: 35px; }
@@ -1000,7 +1001,7 @@ label {
     transition: .4s; }
     .subscribe-line__link:hover {
       background: #fff;
-      color: #000; }
+      color: #231d1f; }
 
 .news-slider .owl-stage {
   padding-left: 0 !important; }
@@ -1045,6 +1046,14 @@ label {
     flex-wrap: wrap; }
     .news-slide-smalls .news-slide-item:nth-child(2), .news-slide-smalls .news-slide-item:nth-child(4) {
       margin-right: 0; }
+    .news-slide-smalls .news-slide-item .news-slide-item__title {
+      top: 208px;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    .news-slide-smalls .news-slide-item:hover .news-slide-item__title {
+      overflow: visible;
+      white-space: normal;
+      top: 0%; }
   .news-slide-item {
     height: 262px;
     background-size: cover;
@@ -1061,7 +1070,8 @@ label {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    text-decoration: none; }
+    text-decoration: none;
+    overflow: hidden; }
     .news-slide-item--big {
       height: 536px;
       margin-bottom: 0; }
@@ -1096,17 +1106,20 @@ label {
       padding: 7px 10px; }
     .news-slide-item__title {
       font-size: 24px;
-      line-height: 32px;
+      line-height: 38px;
       color: #fff;
       font-weight: 600;
       margin-top: auto;
       width: 100%;
-      padding: 11px 15px;
-      height: 50px;
+      padding: 10px 15px;
       white-space: nowrap;
       overflow: hidden;
-      -ms-text-overflow: ellipsis;
-      text-overflow: ellipsis; }
+      text-overflow: ellipsis;
+      -webkit-transition: .4s;
+      transition: .4s;
+      position: absolute;
+      bottom: 0px;
+      z-index: 5; }
 
 .smi-wrapper {
   background: #231D1F;
@@ -1173,11 +1186,11 @@ label {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #000;
+    background: #231d1f;
     opacity: 0.4;
     -webkit-transition: .4s;
     transition: .4s;
-    z-index: -1; }
+    z-index: 0; }
   .smi-slider__item img {
     max-width: 100%;
     height: auto; }
@@ -1191,10 +1204,10 @@ label {
     position: absolute;
     width: 40px;
     height: 30px;
-    background: url("../svg/white-triangle.svg") no-repeat;
+    background: url("../svg/triangle.svg") no-repeat;
     left: 0;
     right: 0;
-    top: -1px;
+    top: -3px;
     margin: auto; }
 
 .main-books-pretext {
@@ -1236,7 +1249,7 @@ label {
 .books-slider-item {
   width: 275px;
   height: 390px;
-  background: #979797;
+  background: #EAE9E9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1749,6 +1762,9 @@ footer {
   .news-list-item {
     padding: 40px 0 24px;
     border-bottom: 1px solid #979797; }
+    .news-list-item__link {
+      text-decoration: none;
+      display: block; }
     .news-list-item__title {
       font-size: 24px;
       line-height: 29px;
@@ -2243,3 +2259,6 @@ footer {
     padding: 17px 0;
     width: 194px;
     text-decoration: none; }
+
+.article-socials.mobile {
+  display: none; }

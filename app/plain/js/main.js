@@ -77,10 +77,9 @@ $(document).ready(function () {
             1320: {
                 items: 4,
                 center: false,
-                autoWidth: false
+                autoWidth: true
             }
         }
-
     });
 
     $('.books-slider').owlCarousel({
@@ -182,6 +181,19 @@ $(document).ready(function () {
             }
         }
     });
+
+    // $('.news-slide-smalls .news-slide-item').on('mouseover', function () {
+    //     $(this).children('.news-slide-item__title').animate({
+    //         height: 'show',
+    //         maxHeight: '300',
+    //     }, 400)
+    // });
+    // $('.news-slide-smalls .news-slide-item').on('mouseleave', function () {
+    //     $(this).children('.news-slide-item__title').animate({
+    //         // overflow: 'hidden',
+    //         maxHeight: '52px'
+    //     }, 400)
+    // });
 
     // Smi slider Pop-up
 
