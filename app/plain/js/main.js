@@ -36,12 +36,20 @@ $(document).ready(function () {
         margin: 0,
         responsive: {
             0: {
-                margin: 25,
+                margin: 10,
                 stagePadding: 20,
+                items: 1
+                // autoWidth: true
             },
-            992: {
+            420: {
+                margin: 15,
+                stagePadding: 20,
+                autoWidth: true
+            },
+            768: {
                 margin: 15,
                 stagePadding: 0,
+                autoWidth: false
             },
             1320: {
                 stagePadding: 30,
@@ -56,9 +64,12 @@ $(document).ready(function () {
         dots: false,
         nav: false,
         margin: 14,
+
         autoplayHoverPause: true,
         autoplayTimeout: 5000,
         smartSpeed: 1500,
+        onDrag: preventSmiPopup,
+        onDragged: preventSmiPopup,
         responsive: {
             0: {
                 items: 1,
@@ -70,17 +81,25 @@ $(document).ready(function () {
             },
             992: {
                 items: 2,
-                autoplay: true,
+                autoplay: false,
                 center: false,
                 autoWidth: true,
             },
             1320: {
                 items: 4,
                 center: false,
+                autoplay: false,
                 autoWidth: true
             }
         }
     });
+
+    function preventSmiPopup(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        return false;
+    }
+
 
     $('.books-slider').owlCarousel({
         items: 4,
@@ -169,7 +188,7 @@ $(document).ready(function () {
             },
             768: {
                 items: 2,
-                autoWidth: false,
+                autoWidth: true,
             },
             992: {
                 items: 2,
@@ -197,8 +216,11 @@ $(document).ready(function () {
 
     // Smi slider Pop-up
 
-    $('.smi-slider__item').on('click', function () {
+    $('.smi-slider').on('click', '.smi-slider__item', function (event) {
         const smiImageSrc = $(this).find('img').attr('src');
+        const smiLink = $(this).attr('href');
+        const smiCaption = $(this).attr('smi-caption');
+        const buttonCaption = $(this).attr('button-caption');
         $.fancybox.open(`
             <div class="subSmi-wrapper">
             <div class="subSmi">
@@ -206,10 +228,8 @@ $(document).ready(function () {
                     <img src="${smiImageSrc}" alt="">
                 </div>
                 <div class="subSmi__text">
-                    <div class="subSmi__caption">на финском</div>
-                     <a href="" class="subSmi__button">
-                                Читай
-                     </a>
+                    <div class="subSmi__caption">${smiCaption}</div>
+                     <a href="${smiLink}" class="subSmi__button">${buttonCaption}</a>
                 </div>
              </div>
              </div>`);
