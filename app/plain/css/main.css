@@ -1178,7 +1178,10 @@ label {
   width: 276px;
   overflow: hidden;
   z-index: 1;
-  position: relative; }
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
   .smi-slider__item:after {
     content: '';
     position: absolute;
@@ -1683,10 +1686,9 @@ footer {
     .about-smi-item:last-of-type {
       margin-bottom: 0; }
     .about-smi-item__icon {
-      margin-right: 53px; }
-      .about-smi-item__icon svg {
-        width: 54px;
-        height: 57px; }
+      margin-right: 53px;
+      width: 54px;
+      height: 57px; }
     .about-smi-item .smi-icon__subs {
       width: 54px;
       height: 48px; }
@@ -2237,7 +2239,8 @@ footer {
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    text-align: center; }
   .subSmi__caption {
     font-size: 24px;
     line-height: 29px;

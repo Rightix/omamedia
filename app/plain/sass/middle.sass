@@ -1,33 +1,28 @@
 @media (max-width: 1320px)
   .news-slide-item
-    width: 41%
+    width: 48%
     flex-shrink: 1
+    height: 194px
   .news-slide-item--big
     flex-shrink: 0
-    width: 300px
+    width: 32%
+    height: 400px
+  .news-slide-smalls .news-slide-item .news-slide-item__title
+    top: 148px
+  .news-slide-item__title
+    font-size: 18px
+    line-height: 28px
   .smi-slider .owl-item
-    width: auto !important
+    //width: auto !important
+    width: 276px!important
   .news-slide-smalls
-    width: auto
+    width: 100%
   .books-adv img
     max-width: 100%
   .books-slider .owl-item
     width: auto !important
   .main-menu-row
     height: 72px
-  .about-smi
-    flex-direction: column
-    align-items: center
-    &-left
-      padding: 84px 15px 50px
-      width: 70%
-      &:before
-        right: -200%
-    &-right
-      width: 70%
-      padding: 54px 15px 50px
-      &:before
-        left: -200%
   .submenu
   .main-menu
     position: absolute
@@ -116,7 +111,7 @@
       font-size: 12px
       color: #231d1f
       &:hover
-        border-color: #000
+        border-color: #231d1f
       &:focus
         box-shadow: none
         border-color: #231D1F
@@ -183,3 +178,7 @@
         display: block
         width: 21px
         height: 20px
+  .article-socials.mobile
+    display: flex
+  .about-smi-wrapper:after
+    background: url(../svg/triangle.svg) no-repeat

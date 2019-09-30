@@ -94,6 +94,14 @@ $(document).ready(function () {
         }
     });
 
+    new ClipboardJS('#copyUrl', {
+        text: function() {
+            return document.location.href;
+        }
+    });
+
+
+
     function preventSmiPopup(event) {
         event.preventDefault();
         event.stopPropagation();
