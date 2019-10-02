@@ -401,7 +401,46 @@ a
 
 .form-error + .form-row
   padding-top: 10px
-
+.input-search
+  border: 1px solid #9d9c9c
+  border-radius: 100px
+  background: #fff
+  height: 50px
+  font-size: 12px
+  color: #231d1f
+  padding: 0 19px
+  width: 100%
+  &:focus
+    outline: none
+  &__icon
+    position: absolute
+    width: 24px
+    height: 24px
+    top: 0
+    bottom: 0
+    right: 20px
+    margin: auto
+    background: none
+    border: none
+    cursor: pointer
+    &:focus
+      outline: none
+    svg
+      width: 24px
+      height: 24px
+  &:hover
+    color: #231d1f
+.input-select
+  border: 1px solid #9d9c9c
+  border-radius: 100px
+  background: #fff url(../svg/select-arrow.svg)
+  background-repeat: no-repeat
+  background-position: 93%;
+  height: 50px
+  font-size: 12px
+  color: #231d1f
+  padding: 0 19px
+  width: 100%
 //input[type="text"], input[type="email"], input[type="password"], input[type="search"]
 //  display: block
 //  font-size: 15px
@@ -1077,7 +1116,7 @@ label
     &:before
       content: ''
       position: absolute
-      width: 40px
+      width: 44px
       height: 30px
       background: url("../svg/white-triangle.svg") no-repeat
       left: 0
@@ -1141,7 +1180,7 @@ label
     &:before
       content: ''
       position: absolute
-      width: 40px
+      width: 44px
       height: 30px
       background: url("../svg/triangle.svg") no-repeat
       left: 0
@@ -1313,7 +1352,7 @@ label
     &:before
       content: ''
       position: absolute
-      width: 40px
+      width: 44px
       height: 30px
       background: url("../svg/white-triangle.svg") no-repeat
       left: 0
@@ -1396,6 +1435,7 @@ label
 footer
   padding-top: 45px
   margin-top: auto
+  position: relative
 .footer
   display: flex
   justify-content: center
@@ -1499,7 +1539,7 @@ footer
     &:before
       content: ''
       position: absolute
-      width: 40px
+      width: 44px
       height: 30px
       background: url("../svg/white-triangle.svg") no-repeat
       left: 0
@@ -2085,7 +2125,8 @@ footer
   position: relative
   border-top: 1px solid #979797
   padding-top: 30px
-  border-bottom: 1px solid #979797
+  & + footer
+    border-top: 1px solid #979797
   &:before
     content: ""
     width: 37px
@@ -2458,3 +2499,235 @@ footer
   &__fb
   &__go
   &__vk
+.smi-wrapper + footer:before
+  content: ""
+  position: absolute
+  width: 44px
+  height: 30px
+  background: url(../svg/triangle.svg) no-repeat
+  left: 0
+  right: 0
+  top: 0px
+  margin: auto
+.shop
+  &-wrapper
+    &.header-triangle
+      padding-top: 40px
+    .breadcrumbs
+      margin-bottom: 50px
+  &-nav
+    display: flex
+    align-items: center
+    margin-bottom: 52px
+    &__item
+      background: #fff
+      border: 1px solid #9d9c9c
+      border-radius: 100px
+      padding: 0 22px
+      height: 50px
+      text-decoration: none
+      width: 190px
+      display: flex
+      align-items: center
+      margin-right: 16px
+      span
+        font-weight: 600
+        font-size: 12px
+        line-height: 15px
+        text-transform: uppercase
+        color: #757373
+      &:last-of-type
+        margin-right: 0
+      &.active
+        background: #231d1f
+        border-color: #231d1f
+        span
+          color: #fff
+      &.books
+        &.active
+          .shop-nav__item-icon
+            background: url("../svg/shop_book-active.svg")
+          span
+            color: #fff
+        .shop-nav__item-icon
+          margin-right: 35px
+          width: 28px
+          height: 20px
+          background: url("../svg/shop_book.svg")
+      &.subs
+        &.active
+          background: #231d1f
+          border-color: #231d1f
+          .shop-nav__item-icon
+            background: url("../svg/shop_subs-active.svg")
+          span
+            color: #fff
+        .shop-nav__item-icon
+          width: 18px
+          height: 27px
+          margin-right: 27px
+          background: url("../svg/shop_subs.svg")
+          position: relative
+          bottom: 3px
+      &.goods
+        &.active
+          background: #231d1f
+          border-color: #231d1f
+          span
+            color: #fff
+          .shop-nav__item-icon
+            background: url("../svg/shop_gift-active.svg")
+        .shop-nav__item-icon
+          width: 22px
+          height: 20px
+          margin-right: 32px
+          background: url("../svg/shop_gift.svg")
+
+  &-panel
+    background: #F7F7F7
+    padding: 23px 0 25px 67px
+    display: flex
+    position: relative
+    z-index: 1
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      right: -200%
+      background: #F7F7F7
+      z-index: -1
+    &-wrapper
+      position: relative
+      display: flex
+      &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: -200%
+        right: -200%
+        height: 1px
+        background: #efefef
+      &:after
+        content: ''
+        position: absolute
+        bottom: 0
+        left: -200%
+        right: -200%
+        height: 1px
+        background: #efefef
+    &__title
+      font-weight: 900
+      font-size: 34px
+      line-height: 42px
+      text-transform: uppercase
+      color: #231d1f
+      padding: 27px 0 32px
+      margin-right: auto
+    &__select
+      font-size: 12px
+      line-height: 20px
+      color: #231d1f
+      width: 280px
+      margin-right: 17px
+    &__search
+      width: 343px
+      position: relative
+      height: 50px
+  &-list
+    display: flex
+    padding: 54px 0 24px
+
+  &-item
+    border: 1px solid #EFEFEF
+    box-shadow: 0px 2px 40px #EFEDED
+    margin-bottom: 30px
+    &-wrapper
+      padding: 0 15px
+      flex: 0 0 33.3%
+    &-link
+      display: block
+      text-decoration: none
+      padding: 42px 40px 0
+    &__title
+      font-weight: 600
+      font-size: 20px
+      line-height: 24px
+      text-align: center
+      color: #231d1f
+      margin-bottom: 34px
+    &__image
+      display: flex
+      align-items: center
+      justify-content: center
+      overflow: hidden
+      margin-bottom: 38px
+      img
+        max-width: 100%
+    &__desc
+      font-size: 12px
+      line-height: 20px
+      text-align: center
+      color: #231d1f
+      margin-bottom: 3px
+    &-cost
+      margin-bottom: 12px
+      text-align: center
+      &__value
+        font-weight: 900
+        font-size: 34px
+        line-height: 41px
+        color: #231d1f
+        margin-right: 3p x
+        display: inline-flex
+      &__currency
+        display: inline-flex
+        font-weight: 500
+        font-size: 9px
+        line-height: 11px
+        color: #757373
+    &__buy
+      margin-bottom: 20px
+      width: 195px
+    &-info
+      display: flex
+      align-items: center
+      justify-content: space-between
+      border-top: 1px solid #D8D8D8
+      &__item
+        padding: 20px 8px
+        text-align: center
+        display: flex
+        justify-content: center
+        width: 100%
+        &:nth-child(2)
+          border-left: 1px solid #D8D8D8
+          border-right: 1px solid #D8D8D8
+      &__caption
+        font-weight: 600
+        font-size: 9px
+        line-height: 11px
+        text-transform: uppercase
+        color: #9d9d9d
+        margin-right: 5px
+      &__value
+        font-weight: 600
+        font-size: 10px
+        line-height: 12px
+        color: #757373
+        text-transform: uppercase
+.gradient-button
+  font-size: 12px
+  line-height: 15px
+  text-align: center
+  text-transform: uppercase
+  color: #fff
+  padding: 16px 70px
+  font-weight: 700
+  background: linear-gradient(168.63deg, #0B5F94 -9.23%, #429A86 54.7%, #F4575A 118.02%)
+  border-radius: 24.5px
+  text-decoration: none
+.pagination--shop
+  padding: 0px 0 52px
+  justify-content: center

@@ -13,7 +13,7 @@
     "@babel/preset-env": "^7.2.3",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.7",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
@@ -36,7 +36,7 @@
     "gulp-scss": "^1.4.0",
     "gulp-svg-sprites": "^4.1.2",
     "gulp-svgmin": "^2.1.0",
-    "gulp-tinypng-compress": "^1.2.1",
+    "gulp-tinypng-compress": "^1.2.5",
     "gulp-uglify": "^3.0.2",
     "normalize.css": "^8.0.0"
   }
