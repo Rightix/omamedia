@@ -52,7 +52,7 @@ $(document).ready(function () {
                 autoWidth: false
             },
             1320: {
-                stagePadding: 30,
+                stagePadding: 7,
                 margin: 14,
                 autoWidth: false,
                 items: 1,
@@ -100,13 +100,37 @@ $(document).ready(function () {
         }
     });
 
+    $('#printPage').on('click', () => window.print());
 
+    $(".password-toggle").on('click', function() {
+        let input = $('.password-input');
+        if (input.attr("type") == "password") {
+            input.attr("type", "text");
+        } else {
+            input.attr("type", "password");
+        }
+    });
 
     function preventSmiPopup(event) {
         event.preventDefault();
         event.stopPropagation();
         return false;
     }
+
+    $('.openLogin').on('click', function () {
+        $.fancybox.close();
+        $.fancybox.open({
+            src: '#signIn'
+        });
+        return false;
+    });
+    $('.openReg').on('click', function () {
+        $.fancybox.close();
+        $.fancybox.open({
+            src: '#signUp'
+        });
+        return false;
+    });
 
 
     $('.books-slider').owlCarousel({

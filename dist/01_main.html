@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="plain/css/jquery.fancybox.min.css">
 <link rel="stylesheet" href="plain/css/main.css">
 <link rel="stylesheet" href="plain/css/middle.css">
+<link rel="stylesheet" href="plain/css/tablet.css">
 <link rel="stylesheet" href="plain/css/mobile.css">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="plain/css/owl.carousel.min.css">
@@ -40,7 +41,7 @@
                         <a href="" class="lang-picker__link">Eng</a>
                     </div>
                     <div class="header-toolbar">
-                        <a href="" class="header-toolbar__item">
+                        <a href="" class="header-toolbar__item openLogin">
                             <svg class="header-toolbar__login">
                                 <use xlink:href="/plain/svg/sprite.svg#login"></use>
                             </svg>
@@ -227,7 +228,7 @@
                                         oma mua
                                     </div>
                                     <div class="news-slide-item__title">
-                                        Lämpimät päivät Luatokan Lämpimät päivät Luatokan
+                                        Lämpimät päivät Luatokan Test Text Texst
                                     </div>
                                 </a>
                                 <a href="" style="background-image: url('temp/news-slider_4.png')"
@@ -474,13 +475,13 @@
                         </div>
                     </div>
                     <div class="smi-slider">
-                        <a href="" class="smi-slider__item">
+                        <a href="#link" smi-caption="на финском" button-caption="читай" class="smi-slider__item">
                             <img src="temp/smi_1.png" alt="">
                         </a>
-                        <a href="" class="smi-slider__item">
+                        <a href="#testlink" smi-caption="on english" button-caption="read" class="smi-slider__item">
                             <img src="temp/smi_2.png" alt="">
                         </a>
-                        <a href="" class="smi-slider__item">
+                        <a href="" smi-caption="на финском" button-caption="читай" class="smi-slider__item">
                             <img src="temp/smi_3.png" alt="">
                         </a>
                         <a href="" class="smi-slider__item">
@@ -821,6 +822,122 @@
 
     </div>
 </footer>
+
+<div id="signIn" class="sign">
+    <div class="sign__title">Вход</div>
+    <div class="sign-account">
+        <div class="sign-account__caption">
+            У Вас нет аккаунта в ОмаМедиа?
+        </div>
+        <a href="" class="sign-account__reg openReg">
+            Зарегистрироваться
+        </a>
+    </div>
+    <form class="sign-form">
+        <div class="sign-row">
+            <div class="sign-row__caption">
+                <label for="login_email">Электронный адрес</label>
+            </div>
+            <div class="sign-input-wrapper">
+                <input placeholder="email@mailbox.com" id="login_email" type="text" class="sign-row__input">
+            </div>
+        </div>
+        <div class="sign-row">
+            <div class="sign-row__caption forgot">
+                <span>Пароль</span>
+                <a class="sign-row__forgot-link" href="">Забыли пароль?</a>
+            </div>
+            <div class="sign-input-wrapper">
+                <input id="signinPass" type="password" class="sign-row__input password-input">
+                <span class="password-toggle"></span>
+            </div>
+        </div>
+        <div class="sign-row">
+            <label class="sign-row-check">
+                <input type="checkbox" class="sign__checkbox">
+                <span class="sign__checkbox--custom"></span>
+                <span class="sign__checkbox-caption">Запомнить меня</span>
+            </label>
+        </div>
+        <div class="sign-row">
+            <button class="gradient-button" type="submit">Войти</button>
+        </div>
+    </form>
+    <div class="quick-login">Быстрый вход</div>
+    <div class="social-login">
+        <a href="" class="social-login__fb">
+            <img src="img/fb.png" alt="">
+        </a>
+        <a href="" class="social-login__go">
+            <img src="img/gp.png" alt="">
+        </a>
+        <a href="" class="social-login__vk">
+            <img src="img/vk.png" alt="">
+        </a>
+    </div>
+</div>
+<div id="signUp" class="sign">
+    <div class="sign__title">Регистрация</div>
+    <div class="sign-account">
+        <div class="sign-account__caption">
+            У Вас уже есть аккаунт в ОмаМедиа?
+        </div>
+        <a href="" class="sign-account__reg openLogin">
+            Войти
+        </a>
+    </div>
+    <form class="sign-form">
+        <div class="sign-row">
+            <div class="sign-row__caption">
+                <label for="login_email">Электронный адрес</label>
+            </div>
+            <div class="sign-input-wrapper">
+                <input placeholder="email@mailbox.com" id="login_email" type="text" class="sign-row__input">
+            </div>
+        </div>
+        <div class="sign-row">
+            <div class="sign-row__caption forgot">
+                <span>Пароль</span>
+                <a class="sign-row__forgot-link" href="">Забыли пароль?</a>
+            </div>
+            <div class="sign-input-wrapper">
+                <input id="signinPass" type="password" class="sign-row__input password-input">
+                <span class="password-toggle"></span>
+            </div>
+        </div>
+        <div class="sign-row">
+            <div class="sign-row__caption forgot">
+                <span>Повторите пароль</span>
+            </div>
+            <div class="sign-input-wrapper">
+                <input id="signupPass" type="password" class="sign-row__input password-input">
+                <span class="password-toggle"></span>
+            </div>
+        </div>
+        <div class="sign-row">
+            <label class="sign-row-check">
+                <input type="checkbox" class="sign__checkbox">
+                <span class="sign__checkbox--custom"></span>
+                <span class="sign__checkbox-caption">Запомнить меня</span>
+            </label>
+        </div>
+        <div class="sign-row">
+            <button class="gradient-button" type="submit">зарегистрироваться</button>
+        </div>
+    </form>
+    <div class="quick-login">Быстрый вход</div>
+    <div class="social-login">
+        <a href="" class="social-login__fb">
+            <img src="img/fb.png" alt="">
+        </a>
+        <a href="" class="social-login__go">
+            <img src="img/gp.png" alt="">
+        </a>
+        <a href="" class="social-login__vk">
+            <img src="img/vk.png" alt="">
+        </a>
+    </div>
+</div>
 <script src="plain/js/jquery-3.2.1.min.js"></script>
 <script src="plain/js/jquery.fancybox.min.js"></script>
 <script src="plain/js/owl.carousel.min.js"></script>
@@ -831,7 +948,7 @@
 <script src="plain/js/jquery.mCustomScrollbar.min.js"></script>
 <script src="plain/js/jquery.maskedinput.min.js"></script>
 <script src="plain/js/svg4everybody.min.js"></script>
-<script src="plain/js/jquery.waypoints.min.js"></script>
+<script src="plain/js/clipboard.min.js"></script>
 <script src="plain/js/inview.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
