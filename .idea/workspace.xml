@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c360cf6-c7e7-4e28-a220-b5dd187dd024" name="Default" comment="Mobile">
+      <change afterPath="$PROJECT_DIR$/app/07_goods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/04_news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/04_news_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/06_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/06_books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/_footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/plain/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/css/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/css/middle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/css/tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/css/tablet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/plain/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/sass/middle.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/sass/middle.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/sass/mobile.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/sass/mobile.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/01_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/01_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/02_smi_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/02_smi_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/03_newslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/03_newslist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/04_news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/04_news_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/plain/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/css/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/css/middle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/svg/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/svg/white-triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/svg/white-triangle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +36,14 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\right\Documents\GitHub\omamedia\app" />
       <recent name="C:\Users\nikitaev\Documents\omamedia\app" />
       <recent name="C:\Users\nikitaev\Documents\omamedia\dist" />
     </key>
@@ -96,7 +79,8 @@
       <workItem from="1569324173314" duration="2019000" />
       <workItem from="1569591677414" duration="22229000" />
       <workItem from="1569917518449" duration="15200000" />
-      <workItem from="1570015543370" duration="15447000" />
+      <workItem from="1570015543370" duration="15715000" />
+      <workItem from="1570093358935" duration="15000000" />
     </task>
     <task id="LOCAL-00001" summary="Mobile">
       <created>1568819112232</created>

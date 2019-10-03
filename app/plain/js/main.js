@@ -94,15 +94,22 @@ $(document).ready(function () {
         }
     });
 
+    $('.book-detail-image').owlCarousel({
+        items: 1,
+        dots: false,
+        nav: true
+    });
+
+
     new ClipboardJS('#copyUrl', {
-        text: function() {
+        text: function () {
             return document.location.href;
         }
     });
 
     $('#printPage').on('click', () => window.print());
 
-    $(".password-toggle").on('click', function() {
+    $(".password-toggle").on('click', function () {
         let input = $('.password-input');
         if (input.attr("type") == "password") {
             input.attr("type", "text");
