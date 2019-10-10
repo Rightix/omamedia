@@ -141,233 +141,220 @@
         </div>
     </div>
 </header>
-    <div class="shop-wrapper header-triangle">
+    <div class="order-wrapper header-triangle">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-8 col-12 order-col">
                     <div class="breadcrumbs">
                         <a href="" class="breadcrumbs__item">omamedia</a>
-                        <span class="breadcrumbs__item">Магазин</span>
+                        <a href="" class="breadcrumbs__item">Магазин</a>
+                        <span class="breadcrumbs__item">Оформление заказа</span>
                     </div>
-                    <div class="shop-nav">
-                        <a href="" class="shop-nav__item books">
-                            <span class="shop-nav__item-icon"></span>
-                            <span>Книги</span>
-                        </a>
-                        <a href="" class="shop-nav__item subs active">
-                            <span class="shop-nav__item-icon"></span>
-                            <span>Подписки</span>
-                        </a>
-                        <a href="" class="shop-nav__item goods">
-                            <span class="shop-nav__item-icon"></span>
-                            <span>
-                                Товары
-                            </span>
-                        </a>
+                    <div class="order__title">Оформление заказа</div>
+                    <div class="order-form">
+                        <div class="order-block order-address">
+                            <div class="order-block__title">Местоположение</div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <label class="input-radio">
+                                        <input name="radio" type="radio" checked>
+                                        <span class="input-radio__custom"></span>
+                                        <span>Физическое лицо</span>
+                                    </label>
+                                </div>
+                                <div class="order-line">
+                                    <label class="input-radio">
+                                        <input name="radio" type="radio" checked>
+                                        <span class="input-radio__custom"></span>
+                                        <span>Юридическое лицо</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Индекс для доставки*</span>
+                                        <span class="order__hint"></span>
+                                    </div>
+                                    <input type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Местоположение*</span>
+                                        <span class="order-line__caption"></span>
+                                    </div>
+                                    <input placeholder="Адрес" type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-login">
+                                <span>У Вас есть аккаунт в ОмаМедиа?</span>
+                                <a href="">Войти</a>
+                            </div>
+                        </div>
+                        <div class="order-block">
+                            <div class="order-block__title">Вид доставки</div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Вид доставки*</span>
+                                        <span class="order__hint"></span>
+                                    </div>
+                                    <select class="input-select">
+                                        <option value="">Доставка почтой России</option>
+                                        <option value="">Доставка</option>
+                                        <option value="">Доставка</option>
+                                    </select>
+                                </div>
+                                <div class="order-line">
+                                    <div class="price-line">
+                                        <div class="price-line__value">450</div>
+                                        <span>руб.</span>
+                                    </div>
+                                    <div class="order-line__delivery-caption">
+                                        Доставка по России почтой России в течении 5-7 дней. Доставка в любую точку
+                                        России
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="order-block">
+                            <div class="order-block__title">Покупатель</div>
+                            <div class="order-gift">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox__custom"></span>
+                                    <span class="checkbox__label">Оформить в подарок</span>
+                                    <span class="order__hint"></span>
+                                </label>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Имя*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Отчество</span>
+                                    </div>
+                                    <input type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Фамилия*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Электронный адрес*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Телефон</span>
+                                    </div>
+                                    <input type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Страна*</span>
+                                    </div>
+                                    <select class="input-select">
+                                        <option value="">Россия</option>
+                                        <option value="">Россия</option>
+                                        <option value="">Россия</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Индекс*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Город*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Адрес*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Промокод</span>
+                                    </div>
+                                    <input type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-check">
+                                <div class="check-line">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkbox__custom"></span>
+                                        <span class="checkbox__label">С <a href="">правилами</a> согласен(сна)</span>
+                                        <span class="order__hint"></span>
+                                    </label>
+                                </div>
+                                <div class="check-line">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkbox__custom"></span>
+                                        <span class="checkbox__label">Согласен(на) на обработку персональных данных</span>
+                                        <span class="order__hint"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="order-total">
+                                <div class="order-cost-wrapper">
+                                    <div class="order-cost">
+                                        <div class="order-cost__main">
+                                            <span>Итого</span>
+                                            <span>375 руб</span>
+                                        </div>
+                                        <div class="order-cost__detail">
+                                            <span>Товары</span>
+                                            <span>250 руб</span>
+                                        </div>
+                                        <div class="order-cost__detail">
+                                            <span>Доставка</span>
+                                            <span>150 руб</span>
+                                        </div>
+                                        <div class="order-cost__detail">
+                                            <span>Скидка 10%</span>
+                                            <span>-25 руб</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="order-buy">
+                                    <div class="order-buy__caption">
+                                        <span>Мы принимаем оплату</span>
+                                        <img src="temp/visa-logos.png" alt="">
+                                        <img src="temp/mc-logo.png" alt="">
+                                    </div>
+                                    <a href="" class="gradient-button">Купить</a>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div class="subs__title">
-                        Подписки
-                    </div>
-                    <div class="subs-list row">
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Oma Mua
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Еженедельная газета на карельском языке, подписка доступна от одного месяца
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">250</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select lightblue">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Karjalan Sanomat
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Еженедельная газета на финском языке, подписка доступна от одного месяца
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">300</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select darkgreen">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Kodima
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Ежемесячная газета на вепсском языке, подписка доступна от одного месяца
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">70</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select darkblue">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Carelia
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Журнал на финском языке, выпускается раз в квартал, подписка от одного квартала
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">150</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select darkred">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Kipinä
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Ежемесячный детский журнал на финском, карельском и веппском языках
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">180</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select pink">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
                 </div>
             </div>
         </div>

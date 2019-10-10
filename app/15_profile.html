@@ -16,17 +16,183 @@
                         <a href="" class="breadcrumbs__item">Магазин</a>
                         <span class="breadcrumbs__item">Оформление заказа</span>
                     </div>
-                    <div class="order__title">Оформление подписки</div>
-                    <div class="order-form">
-                        <div class="order-block">
-                            <div class="order-block__title confirm__title">Ваш заказ</div>
-                            <div class="confirm-caption">
-                                Ваш заказ <span>№230456</span> в обработке. Подтверждение отправлено на ваш электронный адрес. Спасибо за покупку!
+                    <div class="shop-nav profile">
+                        <a href="" class="shop-nav__item user active">
+                            <span class="shop-nav__item-icon"></span>
+                            <span>мой профиль</span>
+                        </a>
+                        <a href="" class="shop-nav__item cart">
+                            <span class="shop-nav__item-icon"></span>
+                            <span>мои заказы</span>
+                        </a>
+                        <a href="" class="shop-nav__item subs">
+                            <span class="shop-nav__item-icon"></span>
+                            <span>мои подписки</span>
+                        </a>
+                        <a href="" class="shop-nav__item favorite">
+                            <span class="shop-nav__item-icon"></span>
+                            <span>избранное</span>
+                        </a>
+                    </div>
+                    <form action="" class="order-block">
+                        <div class="order-block__title">Мой профиль</div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Имя*</span>
+                                </div>
+                                <input required type="text" class="input-text">
                             </div>
-                            <div class="confirm-links">
-                                <div class="gradient-button">В личный кабинет</div>
-                                <div class="border-button">Распечатать счет</div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Отчество</span>
+                                </div>
+                                <input type="text" class="input-text">
                             </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Фамилия*</span>
+                                </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Электронный адрес*</span>
+                                </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Телефон</span>
+                                </div>
+                                <input type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Страна*</span>
+                                </div>
+                                <select class="input-select">
+                                    <option value="">Россия</option>
+                                    <option value="">Россия</option>
+                                    <option value="">Россия</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Индекс*</span>
+                                </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Город*</span>
+                                </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Адрес*</span>
+                                </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Родной*</span>
+                                </div>
+                                <select class="input-select">
+                                    <option value="">Финский</option>
+                                    <option value="">Русский</option>
+                                    <option value="">Россия</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="order-check">
+                            <div class="check-line">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox__custom"></span>
+                                    <span class="checkbox__label">Я хочу получать маркетинговые рассылки со специальными предложениями</span>
+                                    <span class="order__hint"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="profile-submit">
+                            <button class="gradient-button">Сохранить</button>
+                        </div>
+                    </form>
+                    <form class="order-block" action="">
+                        <div class="order-block__title">
+                            Мой пароль
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Старый пароль*</span>
+                                </div>
+                                <div class="sign-input-wrapper">
+                                    <input required id="signinPass" type="password" class="sign-row__input password-input">
+                                    <span class="password-toggle"></span>
+                                </div>
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Новый пароль*</span>
+                                </div>
+                                <div class="sign-input-wrapper">
+                                    <input required id="signinPass" type="password" class="sign-row__input password-input">
+                                    <span class="password-toggle"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Подтвердить пароль*</span>
+                                </div>
+                                <div class="sign-input-wrapper">
+                                    <input required id="signinPass" type="password" class="sign-row__input password-input">
+                                    <span class="password-toggle"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="profile-edit-pass">
+                            <button class="border-button">Изменить</button>
+                        </div>
+                    </form>
+                    <div class="order-block">
+                        <div class="order-block__title">
+                            Подключить социальные сети для быстрого входа
+                        </div>
+                        <div class="profile-social">
+                            <div class="profile-social-logo">
+                                <img src="img/fb.png" alt="">
+                                <div class="profile-social__name">Facebook</div>
+                            </div>
+                            <a href="" class="border-button">Привязать</a>
+                        </div>
+                        <div class="profile-social">
+                            <div class="profile-social-logo">
+                                <img src="img/gp.png" alt="">
+                                <div class="profile-social__name">Gmail</div>
+                            </div>
+                            <a href="" class="border-button">привязать</a>
+                        </div>
+                        <div class="profile-social">
+                            <div class="profile-social-logo">
+                                <img src="img/vk.png" alt="">
+                                <div class="profile-social__name">Vkontakte</div>
+                            </div>
+                            <span class="profile-social__caption">Привязан</span>
+                            <a href="" class="border-button active">отвязать</a>
                         </div>
                     </div>
                 </div>

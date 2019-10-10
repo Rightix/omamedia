@@ -141,233 +141,194 @@
         </div>
     </div>
 </header>
-    <div class="shop-wrapper header-triangle">
+    <div class="order-wrapper header-triangle">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-8 col-12 order-col">
                     <div class="breadcrumbs">
                         <a href="" class="breadcrumbs__item">omamedia</a>
-                        <span class="breadcrumbs__item">Магазин</span>
+                        <a href="" class="breadcrumbs__item">Магазин</a>
+                        <span class="breadcrumbs__item">Оформление заказа</span>
                     </div>
-                    <div class="shop-nav">
-                        <a href="" class="shop-nav__item books">
+                    <div class="shop-nav profile">
+                        <a href="" class="shop-nav__item user active">
                             <span class="shop-nav__item-icon"></span>
-                            <span>Книги</span>
+                            <span>мой профиль</span>
                         </a>
-                        <a href="" class="shop-nav__item subs active">
+                        <a href="" class="shop-nav__item cart">
                             <span class="shop-nav__item-icon"></span>
-                            <span>Подписки</span>
+                            <span>мои заказы</span>
                         </a>
-                        <a href="" class="shop-nav__item goods">
+                        <a href="" class="shop-nav__item subs">
                             <span class="shop-nav__item-icon"></span>
-                            <span>
-                                Товары
-                            </span>
+                            <span>мои подписки</span>
+                        </a>
+                        <a href="" class="shop-nav__item favorite">
+                            <span class="shop-nav__item-icon"></span>
+                            <span>избранное</span>
                         </a>
                     </div>
-                    <div class="subs__title">
-                        Подписки
-                    </div>
-                    <div class="subs-list row">
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Oma Mua
+                    <form action="" class="order-block">
+                        <div class="order-block__title">Мой профиль</div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Имя*</span>
                                 </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
+                                <input required type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Отчество</span>
                                 </div>
-                                <div class="subs-item__desc">
-                                    Еженедельная газета на карельском языке, подписка доступна от одного месяца
+                                <input type="text" class="input-text">
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Фамилия*</span>
                                 </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">250</div>
-                                    <span>руб. / месяц</span>
+                                <input required type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Электронный адрес*</span>
                                 </div>
-                                <a href="" class="subs-item__select lightblue">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Телефон</span>
+                                </div>
+                                <input type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Страна*</span>
+                                </div>
+                                <select class="input-select">
+                                    <option value="">Россия</option>
+                                    <option value="">Россия</option>
+                                    <option value="">Россия</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Индекс*</span>
+                                </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Город*</span>
+                                </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Адрес*</span>
+                                </div>
+                                <input required type="text" class="input-text">
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Родной*</span>
+                                </div>
+                                <select class="input-select">
+                                    <option value="">Финский</option>
+                                    <option value="">Русский</option>
+                                    <option value="">Россия</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="order-check">
+                            <div class="check-line">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox__custom"></span>
+                                    <span class="checkbox__label">Я хочу получать маркетинговые рассылки со специальными предложениями</span>
+                                    <span class="order__hint"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="profile-submit">
+                            <button class="gradient-button">Сохранить</button>
+                        </div>
+                    </form>
+                    <form class="order-block" action="">
+                        <div class="order-block__title">
+                            Мой пароль
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Старый пароль*</span>
+                                </div>
+                                <div class="sign-input-wrapper">
+                                    <input required id="signinPass" type="password" class="sign-row__input password-input">
+                                    <span class="password-toggle"></span>
+                                </div>
+                            </div>
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Новый пароль*</span>
+                                </div>
+                                <div class="sign-input-wrapper">
+                                    <input required id="signinPass" type="password" class="sign-row__input password-input">
+                                    <span class="password-toggle"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-row">
+                            <div class="order-line">
+                                <div class="order-line__caption">
+                                    <span>Подтвердить пароль*</span>
+                                </div>
+                                <div class="sign-input-wrapper">
+                                    <input required id="signinPass" type="password" class="sign-row__input password-input">
+                                    <span class="password-toggle"></span>
                                 </div>
                             </div>
 
                         </div>
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Karjalan Sanomat
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Еженедельная газета на финском языке, подписка доступна от одного месяца
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">300</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select darkgreen">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                        <div class="profile-edit-pass">
+                            <button class="border-button">Изменить</button>
                         </div>
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Kodima
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Ежемесячная газета на вепсском языке, подписка доступна от одного месяца
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">70</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select darkblue">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                    </form>
+                    <div class="order-block">
+                        <div class="order-block__title">
+                            Подключить социальные сети для быстрого входа
                         </div>
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Carelia
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Журнал на финском языке, выпускается раз в квартал, подписка от одного квартала
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">150</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select darkred">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="profile-social">
+                            <div class="profile-social-logo">
+                                <img src="img/fb.png" alt="">
+                                <div class="profile-social__name">Facebook</div>
                             </div>
-
+                            <a href="" class="border-button">Привязать</a>
                         </div>
-                        <div class="subs-item-wrapper">
-                            <div class="subs-item">
-                                <div class="subs-item__title">
-                                    Kipinä
-                                </div>
-                                <div class="subs-item-nav">
-                                    <div class="subs-item-nav__item active">Печатная версия</div>
-                                    <div class="subs-item-nav__item">Электронная версия</div>
-                                    <div class="subs-item-nav__item">электронная + печатная версии</div>
-                                </div>
-                                <div class="subs-item__desc">
-                                    Ежемесячный детский журнал на финском, карельском и веппском языках
-                                </div>
-                                <div class="subs-item-price">
-                                    <span>от</span>
-                                    <div class="subs-item-price__value">180</div>
-                                    <span>руб. / месяц</span>
-                                </div>
-                                <a href="" class="subs-item__select pink">Выбрать</a>
-                                <div class="subs-item-info-wrapper">
-                                    <div class="subs-item-info selected">
-                                        <div class="subs-item-info__title">Печатная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Еженедельная газета по средам</p>
-                                            <p>10% скидка на другие товары (кроме печатных)</p>
-                                        </div>
-                                    </div>
-                                    <div class="subs-item-info">
-                                        <div class="subs-item-info__title">Электронная версия</div>
-                                        <div class="subs-item-text">
-                                            <p>Неограниченное использование онлайн приложения</p>
-                                            <p>Архив газеты с 1990 года</p>
-                                            <p>Другие электронные подписки 20% скидка</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="profile-social">
+                            <div class="profile-social-logo">
+                                <img src="img/gp.png" alt="">
+                                <div class="profile-social__name">Gmail</div>
                             </div>
-
+                            <a href="" class="border-button">привязать</a>
+                        </div>
+                        <div class="profile-social">
+                            <div class="profile-social-logo">
+                                <img src="img/vk.png" alt="">
+                                <div class="profile-social__name">Vkontakte</div>
+                            </div>
+                            <span class="profile-social__caption">Привязан</span>
+                            <a href="" class="border-button active">отвязать</a>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
