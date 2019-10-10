@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- include "html/_head.html" -->
+
+</head>
+<body>
+<div class="wrapper">
+    <!-- include "html/_header.html" -->
+    <div class="order-wrapper header-triangle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-12 order-col">
+                    <div class="breadcrumbs">
+                        <a href="" class="breadcrumbs__item">omamedia</a>
+                        <a href="" class="breadcrumbs__item">Магазин</a>
+                        <span class="breadcrumbs__item">Оформление заказа</span>
+                    </div>
+                    <div class="order__title">Оформление подписки</div>
+                    <div class="order-form">
+                        <div class="order-block order-address">
+                            <div class="order-block__title">Местоположение</div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <label class="input-radio">
+                                        <input name="radio" type="radio" checked>
+                                        <span class="input-radio__custom"></span>
+                                        <span>Физическое лицо</span>
+                                    </label>
+                                </div>
+                                <div class="order-line">
+                                    <label class="input-radio">
+                                        <input name="radio" type="radio" checked>
+                                        <span class="input-radio__custom"></span>
+                                        <span>Юридическое лицо</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Индекс для доставки*</span>
+                                        <span class="order__hint"></span>
+                                    </div>
+                                    <input type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Местоположение*</span>
+                                        <span class="order-line__caption"></span>
+                                    </div>
+                                    <input placeholder="Адрес" type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-login">
+                                <span>У Вас есть аккаунт в ОмаМедиа?</span>
+                                <a href="">Войти</a>
+                            </div>
+                        </div>
+                        <div class="order-block">
+                            <div class="order-block__title">Вид подписки и доставки</div>
+
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>СМИ</span>
+                                    </div>
+                                    <select class="input-select">
+                                        <option value="">Oma Mua</option>
+                                        <option value="">Oma Mua</option>
+                                        <option value="">Oma Mua</option>
+                                    </select>
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Вид доставки</span>
+                                        <span class="order__hint"></span>
+                                    </div>
+                                    <select class="input-select">
+                                        <option value="">Доставка почтой России</option>
+                                        <option value="">Доставка почтой России</option>
+                                        <option value="">Доставка почтой России</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Вид подписки</span>
+                                        <span class="order__hint"></span>
+                                    </div>
+                                    <select class="input-select sub-select">
+                                        <option value="">Печатная версия</option>
+                                        <option value="">Электронная версия</option>
+                                        <option value="">Печатная + электронная версия</option>
+                                    </select>
+                                    <div class="subs-item-info-wrapper order">
+                                        <div class="subs-item-info selected">
+                                            <div class="subs-item-info__title">Печатная версия</div>
+                                            <div class="subs-item-text">
+                                                <p>Еженедельная газета по средам</p>
+                                                <p>10% скидка на другие товары (кроме печатных)</p>
+                                            </div>
+                                        </div>
+                                        <div class="subs-item-info selected">
+                                            <div class="subs-item-info__title">Электронная версия</div>
+                                            <div class="subs-item-text">
+                                                <p>Неограниченное использование онлайн приложения</p>
+                                                <p>Архив газеты с 1990 года</p>
+                                                <p>Другие электронные подписки 20% скидка</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <label class="input-radio sub-radio">
+                                        <input name="radio" type="radio" checked>
+                                        <span class="input-radio__custom"></span>
+                                        <span class="months">один месяц</span>
+                                        <span class="economy">экономия 50 руб</span>
+                                    </label>
+                                    <label class="input-radio sub-radio">
+                                        <input name="radio" type="radio" checked>
+                                        <span class="input-radio__custom"></span>
+                                        <span class="months">три месяца</span>
+                                        <span class="recommend">мы рекоммендуем!</span>
+                                        <span class="economy">экономия 130 руб</span>
+                                    </label>
+                                    <label class="input-radio sub-radio">
+                                        <input name="radio" type="radio" checked>
+                                        <span class="input-radio__custom"></span>
+                                        <span class="months">шесть месяцев</span>
+                                        <span class="economy">экономия 220 руб</span>
+
+                                    </label>
+                                </div>
+                                <div class="order-line">
+                                    <div class="datepicker order-datepicker">
+                                        <div class="order-datepicker__start">Начало подписки</div>
+                                        <div class="datepicker-input">
+                                            <input type="text" class="input-text">
+                                        </div>
+                                        <div class="order-datepicker__caption">
+                                            День, когда вы получите первую печатную версию. Электронную версию вы
+                                            получаете до этого дня бесплатно бонусом.
+                                        </div>
+                                        <div class="order-datepicker__caption grey">
+                                            *Если заказ оформлен до 20-го числа, вы получаете печатную газету со
+                                            следующуго месяца, а если заказ оформлен после 2о-го, вы получаете газету
+                                            через месяц.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="price-line order-price">
+                                        <div class="price-line__value">450</div>
+                                        <span>руб. за три месяца</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-block">
+                            <div class="order-block__title">Покупатель</div>
+                            <div class="order-gift">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox__custom"></span>
+                                    <span class="checkbox__label">Оформить в подарок</span>
+                                    <span class="order__hint"></span>
+                                </label>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Имя*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Отчество</span>
+                                    </div>
+                                    <input type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Фамилия*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Электронный адрес*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Телефон</span>
+                                    </div>
+                                    <input type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Страна*</span>
+                                    </div>
+                                    <select class="input-select">
+                                        <option value="">Россия</option>
+                                        <option value="">Россия</option>
+                                        <option value="">Россия</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Город*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-row">
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Адрес*</span>
+                                    </div>
+                                    <input required type="text" class="input-text">
+                                </div>
+                                <div class="order-line">
+                                    <div class="order-line__caption">
+                                        <span>Промокод</span>
+                                    </div>
+                                    <input type="text" class="input-text">
+                                </div>
+                            </div>
+                            <div class="order-check">
+                                <div class="check-line">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkbox__custom"></span>
+                                        <span class="checkbox__label">С <a href="">правилами</a> согласен(сна)</span>
+                                        <span class="order__hint"></span>
+                                    </label>
+                                </div>
+                                <div class="check-line">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkbox__custom"></span>
+                                        <span class="checkbox__label">Согласен(на) на обработку персональных данных</span>
+                                        <span class="order__hint"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="order-total">
+                                <div class="order-cost-wrapper">
+                                    <div class="order-cost">
+                                        <div class="order-cost__main">
+                                            <span>Итого</span>
+                                            <span>375 руб</span>
+                                        </div>
+                                        <div class="order-cost__detail">
+                                            <span>Товары</span>
+                                            <span>250 руб</span>
+                                        </div>
+                                        <div class="order-cost__detail">
+                                            <span>Доставка</span>
+                                            <span>150 руб</span>
+                                        </div>
+                                        <div class="order-cost__detail">
+                                            <span>Скидка 10%</span>
+                                            <span>-25 руб</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="order-buy">
+                                    <div class="order-buy__caption">
+                                        <span>Мы принимаем оплату</span>
+                                        <img src="temp/visa-logos.png" alt="">
+                                        <img src="temp/mc-logo.png" alt="">
+                                    </div>
+                                    <a href="" class="gradient-button">Купить</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include "html/_footer.html" -->
+</div>
+
+</body>
+</html>
