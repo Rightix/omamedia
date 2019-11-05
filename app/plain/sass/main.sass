@@ -23,11 +23,11 @@ h1, h2, h3, h4, h5, h6
 h1
   font-family: Montserrat, sans-serif
   font-size: 90px
-  font-weight: 600
+  //font-weight: 600
   //margin: 53px 0 20px
   line-height: 88px
-  letter-spacing: -0.03em
-  margin: 0.25em 0 .8em
+  //letter-spacing: -0.03em
+  //margin: 0.25em 0 .8em
 
 h2
   //margin: 33px 0 11px
@@ -442,6 +442,18 @@ a
   padding: 0 19px
   width: 100%
   font-weight: 400
+//.selectric
+//  border: 1px solid #9d9c9c
+//  border-radius: 100px
+//  background: #fff url(../svg/select-arrow.svg)
+//  background-repeat: no-repeat
+//  background-position: 93%
+//  height: 50px
+//  font-size: 12px
+//  color: #231d1f
+//  padding: 0 19px
+//  width: 100%
+//  font-weight: 400
 //input[type="text"], input[type="email"], input[type="password"], input[type="search"]
 //  display: block
 //  font-size: 15px
@@ -2585,13 +2597,13 @@ footer
           height: 20px
           margin-right: 32px
           background: url("../svg/shop_gift.svg")
-
   &-panel
     background: #F7F7F7
     padding: 23px 0 25px 67px
     display: flex
     position: relative
     z-index: 1
+    margin-left: auto
     &:before
       content: ''
       position: absolute
@@ -2627,7 +2639,7 @@ footer
       text-transform: uppercase
       color: #231d1f
       padding: 27px 0 32px
-      margin-right: auto
+      margin-right: 94px
     &__select
       font-size: 12px
       line-height: 20px
@@ -2645,7 +2657,6 @@ footer
   &-item
     border: 1px solid #EFEFEF
     box-shadow: 0px 2px 40px #EFEDED
-    margin-bottom: 30px
     display: flex
     flex-direction: column
     justify-content: space-between
@@ -2653,6 +2664,7 @@ footer
     &-wrapper
       padding: 0 15px
       flex: 0 0 33.3%
+      margin-bottom: 30px
     &-link
       display: block
       text-decoration: none
@@ -2702,7 +2714,7 @@ footer
         font-size: 34px
         line-height: 41px
         color: #231d1f
-        margin-right: 3p x
+        margin-right: 3px
         display: inline-flex
       &__currency
         display: inline-flex
@@ -3105,6 +3117,7 @@ footer
   display: flex
   align-items: center
   text-align: left
+  user-select: none
   &__up
     cursor: pointer
     position: absolute
@@ -3312,6 +3325,7 @@ footer
     height: 20px
     background: url("../svg/hint.svg")
     cursor: pointer
+    flex-shrink: 0
   &-address
     .order-line
       margin-bottom: 20px
@@ -3701,22 +3715,23 @@ footer
     height: 50px
     color: #fff
     border: none
-    .black
+    &.black
       background: rgba(35, 29, 31, 0.9)
-    .grey
+    &.grey
       background: #757373
-    .darkred
+    &.darkred
       background: rgba(156, 35, 36, 0.9)
-    .lightred
+    &.lightred
       background: rgba(230, 57, 60, 0.9)
-    .lightblue
+    &.lightblue
       background: rgba(63, 166, 219, 0.9)
-    .darkblue
+    &.darkblue
       background: rgba(11, 95, 148, 0.9)
-    .lightgreen
+    &.lightgreen
       background: rgba(66, 154, 134, 0.9)
-    .darkgreen
+    &.darkgreen
       background: rgba(47, 110, 66, 0.9)
+
   span
     font-weight: 600
     font-size: 10px
@@ -3760,3 +3775,15 @@ footer
     margin-left: 0
   .basket-item__remove
     margin-left: auto
+.mobile-filter-wrapper
+  display: none
+.tooltip
+  margin-left: 6px
+  background: #3fa6dd
+  box-shadow: 0 1px 15px -2px #dcdada
+  color: #fff
+  border-radius: 5px
+  max-width: 250px
+  &-inner
+    font-size: 12px
+    padding: 3px 9px

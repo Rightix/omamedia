@@ -285,8 +285,6 @@ $(document).ready(function () {
             }
             // $('.header-menu--mobile').slideToggle();
         });
-
-
     }
 
     // Language picker
@@ -306,37 +304,6 @@ $(document).ready(function () {
     });
 
 
-    function listTo(event) {
-        var index = event.item.index;
-        $('.author-galleryPreview').trigger('to.owl.carousel', index, 500);
-        $('.author-galleryPreview .owl-item').eq(index).addClass('show').siblings().removeClass('show');
-        $('.author-gallery-counter__count').html(index + 1);
-
-    }
-
-    function galleryQuantity(event) {
-        let quantity = event.item.count;
-
-    }
-
-    function showInit(event) {
-        var index = event.item.index;
-        var quantity = event.item.count;
-        $('.author-galleryPreview .owl-item').eq(index).addClass('show');
-        $('.author-gallery-counter__quantity').html(quantity);
-
-
-    }
-
-    $(".author-galleryPreview .owl-item").on('click', function () {
-
-        event.preventDefault();
-        var index = $(this).index();
-        $(this).addClass('show').siblings().removeClass('show');
-        // $('.lot-slider .owl-item').eq(index).addClass('show');
-
-        $('.author-gallery').trigger('to.owl.carousel', index, 500);
-    });
 
 
 //Моб. скрипты
@@ -379,14 +346,7 @@ $(document).ready(function () {
 
     }
 
-    if ($(window).width() < 992) {
 
-        $('.menu-trigger').on('click', function () {
-            $('.header-menu--mobile').slideToggle();
-        });
-
-
-    }
 
     $(".form__file input[type=file]").change(function () {
         var filename = $(this).val().replace(/.*\\/, "");
@@ -394,31 +354,47 @@ $(document).ready(function () {
         $(this).siblings(".form__file-name").fadeIn().val(filename);
     });
 
-    // Favorites
-
-
-    // Validate Form
-
-    // $.validate({
-    //
-    //     borderColorOnError: '#c72b11',
-    //     lang: 'ru',
-    //     validateOnBlur: false, // disable validation when input looses focus
-    //     errorMessagePosition: 'top', // Instead of 'inline' which is default
-    //     scrollToTopOnError: false, // Set this property to true on longer forms
-    //     onElementValidate: function (valid, $el, $form, errorMess) {
-    //         $el.closest('.form-row').addClass('error');
-    //         console.log('Input ' + $el.attr('name') + ' is ' + (valid ? 'VALID' : 'NOT VALID'));
-    //     }
-    // });
 
     $(function () {
         //2. Получить элемент, к которому необходимо добавить маску
         $("form .phone-input").mask("+9 (999) 999-99-99");
     });
 
-    // Waves.attach('.header-mid-account__login');
-    // Waves.init();
+    // $('select').selectric();
+    // --- cOUNTER
+
+    $(function () {
+        let $input = $('.input-counter input');
+        let $down = $('.input-counter__down');
+        let $up = $('.input-counter__up');
+        $down.on('click', () => counterAction('down'));
+        $up.on('click', () => counterAction('up'));
+        const counterAction = (action) => {
+            let $val = Number($input.val());
+            if (action === 'down' && $val <= 0) {
+                return;
+            }
+            if (action === 'up') {
+                $input.val($val + 1);
+            } else {
+                $input.val($val - 1);
+            }
+        }
+    });
+
+    // --- Tooltip
+    $(function () {
+        let $tooltipEl = $('.order__hint');
+        $tooltipEl.each(function() {
+            console.log($(this))
+            let $tooltipHint = $(this).data('hint');
+            console.log($tooltipHint);
+            new Tooltip($(this), {
+                placement: 'right', // or bottom, left, right, and variations
+                title: $tooltipHint,
+            });
+        });
+    });
 
 
 });

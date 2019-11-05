@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="plain/css/owl.carousel.min.css">
 <link rel="stylesheet" href="plain/css/ripple.min.css">
 <link rel="stylesheet" href="plain/css/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" href="plain/css/selectric.css">
 
 
 <meta charset="UTF-8">
@@ -91,7 +92,7 @@
                         <svg>
                             <use xlink:href="/plain/svg/sprite.svg#login_mobile"></use>
                         </svg>
-                        <div class="login-mobile__caption">
+                        <div class="login-mobile__caption openLogin">
                             Войти
                         </div>
                     </div>
@@ -166,10 +167,16 @@
                         </a>
                     </div>
                     <div class="shop-panel-wrapper">
-                        <div class="shop-panel__title">Товары</div>
+                        <div class="shop-panel__title">Книги</div>
                         <div class="shop-panel">
                             <select class="input-select shop-panel__select" name="" id="">
                                 <option value="">Выбрать язык</option>
+                                <option value="Русский">suomi</option>
+                                <option value="karjalan">suomi</option>
+                                <option value="suomi">suomi</option>
+                            </select>
+                            <select class="input-select shop-panel__select" name="" id="">
+                                <option value="">Выбрать год издательства</option>
                                 <option value="Русский">suomi</option>
                                 <option value="karjalan">suomi</option>
                                 <option value="suomi">suomi</option>
@@ -182,6 +189,21 @@
                                     </svg>
                                 </button>
                             </form>
+                        </div>
+                    </div>
+                    <div class="mobile-filter-wrapper">
+                        <div class="mobile-filter__search">
+                            <svg class="mobile-search__icon">
+                                <use xlink:href="/plain/svg/sprite.svg#white_search"></use>
+                            </svg>
+                        </div>
+                        <div class="mobile-filter">
+                            <div class="mobile-filter__icon">
+                                <svg class="filter-icon">
+                                    <use xlink:href="/plain/svg/sprite.svg#filter"></use>
+                                </svg>
+                            </div>
+                            <div class="mobile-filter__caption">Фильтры</div>
                         </div>
                     </div>
                     <div class="shop-list row">
@@ -924,6 +946,9 @@
 <script src="plain/js/jquery.maskedinput.min.js"></script>
 <script src="plain/js/svg4everybody.min.js"></script>
 <script src="plain/js/clipboard.min.js"></script>
+<script src="plain/js/jquery.selectric.min.js"></script>
+<script src="plain/js/popper.min.js"></script>
+<script src="plain/js/tooltip.min.js"></script>
 
 
 <script type="text/javascript" src="plain/js/main.js"></script>

@@ -33,4 +33,9 @@
       .about-smi-right:before {
         left: -200%; }
   .articles-slide__image {
-    height: 187px; } }
+    height: 187px; }
+  .shop-panel {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .shop-panel__select {
+    margin-bottom: 15px; } }
