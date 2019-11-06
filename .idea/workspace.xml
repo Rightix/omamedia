@@ -2,55 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c360cf6-c7e7-4e28-a220-b5dd187dd024" name="Default" comment="Mobile">
-      <change afterPath="$PROJECT_DIR$/app/plain/svg/filter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/plain/svg/white_search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/plain/css/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/plain/js/jquery.selectric.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/plain/js/popper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/05_articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/05_articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/06_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/06_books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/07_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/07_goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/09_book-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/09_book-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/12_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/12_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/16_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/16_orders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/_head.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/_head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/_header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/plain/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/css/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/css/middle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/css/tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/css/tablet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/plain/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/sass/middle.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/sass/middle.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/sass/mobile.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/sass/mobile.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/plain/sass/tablet.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/plain/sass/tablet.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/01_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/01_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/02_smi_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/02_smi_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/03_newslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/03_newslist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/04_news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/04_news_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/05_articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/05_articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/06_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/06_books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/07_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/07_goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/08_subs.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/08_subs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/09_book-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/09_book-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/10_book-detail-available.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/10_book-detail-available.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/11_basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/11_basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/12_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/12_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/13_order-sub.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/13_order-sub.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/14_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/14_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/15_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/15_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/16_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/16_orders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/17_my-subs.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/17_my-subs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/18_favorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/18_favorite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/plain/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/css/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/css/middle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/css/tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/css/tablet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/plain/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/plain/svg/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +90,7 @@
       <workItem from="1570785659022" duration="311000" />
       <workItem from="1570786074459" duration="88000" />
       <workItem from="1572423989139" duration="24562000" />
-      <workItem from="1572946807810" duration="1907000" />
+      <workItem from="1572946807810" duration="3765000" />
     </task>
     <task id="LOCAL-00001" summary="Mobile">
       <created>1568819112232</created>
